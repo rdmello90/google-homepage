@@ -1,0 +1,147 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    -webkit-appearance: none;
+}
+.disable-selection {
+    -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+ -webkit-user-select: none; /* Chrome, Safari, and Opera */
+ -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.header{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 200px;
+}
+
+.left{
+    padding: 13px;
+    display: inline;
+}
+.right{
+    display: inline;
+    text-align: right;
+    float: right;
+    padding-right: 20px;
+}
+
+.butt{
+    background-color: #4387fd;
+    color: white;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    outline: none;
+}
+
+.imgmain{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+.search{
+    display: table;
+    margin: auto;
+    border: 1px solid rgb(194, 192, 192);
+    border-radius: 50px;
+    margin-top: 25px;
+
+}
+
+.buttons{
+    text-align: center;
+    display: block;
+}
+
+.search svg{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    fill: rgb(99, 98, 98);
+    align-content: flex-start;
+    margin-left: 15px;
+    margin-right: 4px;
+    top: 5px;
+    display: inline-block;
+}
+#microphone{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 8px;
+    top: 5px;
+    display: inline-block;
+}
+
+.text-input{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    border: white;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn{
+    color: rgb(99, 98, 98);
+    background-color: rgb(235, 232, 232);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    margin-top: 20px;
+    -webkit-appearance: none;
+    text-align: center;
+    outline: none;
+}
+
+.footer{
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    background-color: rgb(235, 232, 232);
+    border-top: 0.1mm solid grey;
+}
+
+.fbar1{
+    display: inline;
+    float: left;
+}
+.fbar2{
+    display: inline;
+    float: right;
+}
+
+.footer a{
+    color: rgb(99, 98, 98);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+a:hover{
+    text-decoration: underline;
+}
